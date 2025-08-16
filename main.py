@@ -78,4 +78,6 @@ net_io = psutil.net_io_counters()
 print(f"Всего байт отправлено: {get_size(net_io.bytes_sent)}")
 print(f"Всего байт получено: {get_size(net_io.bytes_recv)}")
 
+
 print("Fix Issue 1")
+print("Fix Issue 2")
